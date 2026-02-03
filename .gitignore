@@ -1,0 +1,36 @@
+# Ignore virtual environment
+.venv/
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local testing files
+*.log
+.cache/
+.streamlit/
+
+# Environment variables
+.env
+.env.local
+
+# Build outputs
+build/
+dist/
+*.egg-info/
